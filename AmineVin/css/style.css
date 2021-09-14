@@ -1,0 +1,77 @@
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castiglione | www.twitter.com/castig | www.castig.org 
+Developed @ One Month in NYC 
+
+*/
+
+body {
+	background: url('../images/anime.png');
+	/* the follow is the code to have the image display as a full page */
+	alignment: bottom;
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container{
+
+	border-radius: 10px;
+	background: #12213f;
+	width: 424px;
+	color: whitesmoke;
+	padding: 15px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+h1{
+	font-size: 80px;
+}
+
+h2{
+	background: skyblue;
+	color: black;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+a{
+	color: #75c1f6;
+	text-decoration: none;
+}
+
+#credit{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#trailer{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	color: whitesmoke;
+	
+}
+
+#genres{
+	position: absolute;
+	left: 0;
+	text-align: left;
+	color: royalblue;
+	word-spacing: inherit;
+}
+
+#genres1{
+	background: royalblue;
+	color: floralwhite;
+	padding: 5px;
+	border-radius: 5px;
+}
